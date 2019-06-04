@@ -90,7 +90,7 @@ m.sendMessage(args)
    }
    });
 
-const developers = ["472413769700474901","id"]
+const developers = ["138005466235011082","id"]
 client.on('message', message => {
     var argresult = message.content.split(` `).slice(1).join(' ');
       if (!developers.includes(message.author.id)) return;
@@ -111,7 +111,7 @@ client.on('message', message => {
       message.channel.send(`**✅   ${argresult}**`)
   } else 
   if (message.content.startsWith(adminprefix + 'sets')) {
-    client.user.setGame(argresult, "https://www.twitch.tv/dream");
+    client.user.setGame(argresult, "DRIFTXD II $help ✅");
       message.channel.send(`**✅**`)
   }
   if (message.content.startsWith(adminprefix + 'setname')) {
